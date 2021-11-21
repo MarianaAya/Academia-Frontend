@@ -1,0 +1,29 @@
+#divTable{
+    margin-top: 20px;
+    text-align: center;
+}
+#tabela{
+    width:100%;
+    font-size: 20px;
+    border-collapse: collapse;
+}
+#tabela td{
+    padding:10px;
+}
+#tabela thead,tbody{
+    width: 100%;
+}
+#tabela thead{
+    background-color: rgb(34, 34, 34);
+    color: #fff;
+}
+#tabela tbody{
+    background-color: rgb(57, 63, 61);
+}
+#tabela tbody tr:hover{
+    background-color: rgb(139, 139, 139);
+}
+#tabela #btexcluir{
+    margin-top: 0px;
+    width: 70px;
+}

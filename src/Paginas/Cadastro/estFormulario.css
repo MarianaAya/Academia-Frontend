@@ -1,0 +1,244 @@
+#formulario{
+    width: 70%;
+    background-color: rgb(0, 0, 0,.95);
+    box-shadow: 0 0 14px 0 rgba(0 , 0 , 0, 0.02);
+    border-radius: 5px;
+    padding: 30px;
+    color: #ffff;
+   
+}
+#formulario p strong{
+    font-size: 20px;
+    color:  #ffffff;
+}
+#formulario p{
+    margin-top: 7px;
+}
+#formulario h1{
+    font-size: 20px;
+    text-align: center;
+    display: block;
+    color:  #ffffff;
+}
+#formulario form{
+    width: 100%;
+    margin-top: 20px;
+    display: flex;
+    flex-flow: row wrap;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+#formulario input{
+    background-color: transparent;
+}
+
+#formulario form .input-block {
+    margin-right: 3%;
+}
+#formulario form .input-block{
+    margin-top: 20px;
+}
+#formulario form .input-block label{
+    color: #e0dfdf;
+    font-size: 14px;
+    font-weight: bold;
+    display: block;
+}
+#formulario #block-dtNasc{width: 25%;}
+#formulario #block-cpf{width: 30%;}
+#formulario #block-fone{width: 50%;}
+#formulario #block-nome{width: 68%;}
+#formulario #block-email{width: 64%;}
+#formulario #block-peso{width: 20%;}
+#formulario #block-altura{width: 20%;}
+#formulario #block-relacao{width: 44%;}
+#formulario #block-nomeContato{width: 100%;}
+#formulario #block-codigo{width: 15%;}
+#formulario #block-observacao{width:60%;}
+#formulario #block-codigo input{text-align: center;}
+#formulario #block-sexo{
+    width: 93%;
+    display: flex;
+    flex-flow: row wrap;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+#formulario #block-unidade{
+    width: 93%;
+    display: flex;
+    flex-flow: row wrap;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+#formulario #block-sexo label{width: 15%;}
+#formulario #block-unidade label{width: 15%;}
+#formulario #block-sexo #sexo{
+    width: 20%; 
+    margin-left: 5%; 
+}
+#formulario #block-qtde{width: 15%;}
+#formulario #block-valorTotal{width: 30%;}
+#formulario #block-qtdeParcelas{width: 30%;}
+#formulario #block-formaPgto{
+    width: 93%;
+    display: flex;
+    flex-flow: row wrap;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+#formulario #block-formaPgto label{width: 25%;}
+#formulario form .input-block input{
+    width: 100%;
+    height: 32px;
+    font-size: 14px;
+    color: rgb(212, 212, 212);
+    border: 0;
+    border-bottom: 3px solid #ccc;
+  
+}
+
+#formulario form div{
+    width: 100%;
+    display: block;
+}
+#formulario form button[type=submit]{
+    width: 100%;
+    border: 0;
+
+    margin-top: 5px;
+    background: #414040;
+    border-radius: 5px;
+    padding: 15px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    color: rgb(216, 216, 216);
+    cursor: pointer;
+    transition: background 0.5s;
+}
+#btnFormAlt{
+    width: 60%;
+}
+#formulario button[type=submit]:hover{
+    background: #fefffe;
+    color:rgba(34, 33, 33, 0.849)
+}
+
+#formulario button[type=button]{
+    width: 100%;
+    border: 0;
+    margin-top: 30px;
+    color:#ffff;
+    background:#6b6b6b;
+    border-radius: 5px;
+    padding: 15px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background 0.5s;
+}
+
+#formulario button[type=button]:hover{
+    background-color: #eeeeee;
+    color: rgba(44, 42, 42, 0.555);
+}
+#formulario #mensagem{
+    margin-top: 20px;
+    width: 100%;
+    background-color: #ffe6e6;
+    color: #5f0404;
+    border-radius: 10px;
+}
+#formulario #mensagem p{
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+#formulario #formSenha{
+    justify-content: center;
+}
+#formulario form #btnFormAlt{
+    width:70%;
+}
+
+/**************Cadastro de contato no formulario de cliente******************/
+#cadastroContato{
+    margin-top: 10px;
+    width: 100%;
+    display: flex;
+    flex-flow: row wrap;
+    flex-direction: row;
+    justify-content: flex-start;
+
+}
+
+#cadastroContato button[type=button]{
+    width: 100%;
+    border: 0;
+    margin-top: 30px;
+    background:#63f19e;
+    border-radius: 5px;
+    padding: 15px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #fff;
+    cursor: pointer;
+    transition: background 0.5s;
+}
+#cadastroContato .input-block label{
+    color: #9a9a9a;
+    font-size: 14px;
+    font-weight: bold;
+    display: block;
+}
+#cadastroContato .input-block input{
+    width: 100%;
+    height: 32px;
+    font-size: 14px;
+    color: #666;
+    border: 0;
+    border-bottom: 3px solid #ccc;
+  
+}
+#cadastroContato #btnFormContato {
+    width: 70%;
+    border: 0;
+    margin-top: 30px;
+    margin-left:17%;
+    background:#414040;
+    border-radius: 5px;
+    padding: 15px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #fff;
+    cursor: pointer;
+    transition: background 0.5s;
+}
+#formulario #btnFormContato:hover{
+    background: #fefffe;
+    color: rgba(44, 42, 42, 0.555);
+}
+#cadastroContato #divTable{
+    width: 100%;
+}
+#cadastroContato #block-nomeContato{
+    width: 95%;
+}
+#cadastroContato #block-foneContato{
+    width: 43%;
+}
+#cadastroContato #block-relacao{
+    width: 43%;
+
+}
+
+#cadastroContato #mensagemContato{
+    margin-top: 20px;
+    width: 100%;
+    background-color: #ffe6e6;
+    color: #5f0404;
+    border-radius: 10px;
+}
+#cadastroContato #mensagemContato p{
+    margin-top: 10px;
+    margin-left: 10px;
+}

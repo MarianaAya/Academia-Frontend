@@ -1,0 +1,81 @@
+#compraVis{
+    width: 100%;
+    padding:50px;
+    background-color: rgba(0,0,0,.9);
+}
+#compraVis ul{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr); /*divide em dois*/
+    gap: 70px;
+    list-style: none;
+}
+
+#compraVis h1{
+    color:#ffffff
+}
+
+#compraVis #filtro{
+    width: 100%;
+    margin-bottom: 2%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+
+li.venda-Item{
+    /*border: 2px solid #999999;*/
+    border: none;
+}
+li.venda-Item header{
+    background: #333232;;
+    box-shadow: 0 0 14px 0 rgba(0, 0, 0, 0.02);
+    border-radius: 5px;
+    font-weight: 900;
+}
+li.venda-Item header p{
+    text-align: center;
+    color:#c7c0c0
+}
+li.venda-Item header .venda-nome{
+    width: 10%;
+    padding-top: 13px;
+    background-color: #595959;
+}
+li.venda-Item header .venda-valorTotal{
+    width: 90%;
+    padding-top:13px
+}
+
+li.venda-Item .venda-info{
+    padding: 10px;
+    background-color: #ffffff;
+}
+li.venda-Item #acoes{
+    padding-top: 10px;
+    text-align: right;
+    padding-bottom: 5px;
+    padding-right: 5px;
+    background-color: #333232;
+}
+li.venda-Item #acoes #btreservar{
+    margin-right: 5px;
+}
+
+li.venda-Item #acoes #bteditar{
+    margin-left: 5px;
+}
+li.venda-Item #acoes button{
+    background-color: #4d4c4c;
+    text-align: center;
+    color:#afafaf;
+}
+li.venda-Item #acoes button:hover{
+    background-color: #c7c7c7;
+    color:#363434;
+}
+li.venda-Item #acoes button:disabled,
+button[disabled]{
+  border: 1px solid #999999;
+  background-color: #d1d0d0;
+  color: #666666;
+}

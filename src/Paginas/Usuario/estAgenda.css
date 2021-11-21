@@ -1,0 +1,66 @@
+#listAgenda #formulario{
+    width:100%;
+}
+#listAgenda #formulario button{
+    margin-top: 20px;
+}
+#listAgenda{
+    width: 100%;
+    padding:50px;
+    background-color: rgb(0, 0, 0,.95);
+    text-align: center;
+    
+}
+#listAgenda h1{
+    color:rgb(255, 255, 255);
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+#listAgenda ul{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    text-align: left;
+    grid-template-columns: repeat(1, 1fr); /*divide em dois*/
+    gap: 70px;
+    list-style: none;
+}
+ul li.agenda-Item{
+    width: 300px;
+}
+
+#textEsq button{
+    cursor: pointer;
+    border: 1px solid #ec1111;
+    background-color: #f0abab;
+    color: #f31a1a;
+}
+#textEsq button:hover{
+    cursor: pointer;
+    background-color: #ff0000;
+    border-color: #eeeaea;
+    color: #eee8e8;
+}
+#textEsq button:disabled,
+button[disabled]{
+  border: 1px solid #999999;
+  background-color: #cccccc;
+  color: #666666;
+  cursor: not-allowed;
+}
+.agenda-info{
+    padding: 10px;
+    background-color: rgb(248, 248, 248);
+}
+li.agenda-Item header{
+    background: #464646;
+    box-shadow: 0 0 14px 0 rgba(0, 0, 0, 0.02);
+    border-radius: 5px;
+    padding: 20px;
+    font-size: 20px;
+    color:rgb(248, 248, 248);
+    
+}
+#textEsq{
+    text-align: right;
+}

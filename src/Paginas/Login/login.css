@@ -1,0 +1,72 @@
+#login{
+    /*background-image: radial-gradient(circle, rgb(96, 199, 113), rgb(162, 255, 176), rgb(73, 206, 106));*/
+    background: url('fundo.jpg') no-repeat fixed;
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+#login main{
+    position: relative;
+    width: 300px;
+    height: 400px;
+    text-align: center;
+    padding: 20px;
+    background-color: rgba(0,0,0,.9);
+    box-shadow: 0 0 10px rgba(255,255,255,.3);
+}
+#login main form p{
+    color: rgb(210, 253, 209);
+    cursor: pointer;
+}
+#login main form p:hover{
+    color:rgb(107, 111, 121);
+}
+#login main h2{
+    color: rgb(255, 255, 255);
+}
+.avatar{
+    width: 100px;
+    margin-top: 10px;
+}
+
+#login input{
+    margin-top: 15px;
+    height: 30px;
+    width:90%;
+    border: none;
+    color:#fff;
+    background-color: transparent;
+    border-bottom: 2px solid #ffffff;
+}
+#login form input:focus{
+    border-bottom: 2px solid rgb(8, 8, 8);
+    outline:none;
+    color: rgba(228, 227, 227, 0.829);
+}
+
+#login main button[type=submit]{
+    background-color: rgb(94, 94, 94);
+    width: 90%;
+    height: 35px;
+    font-weight: bold;
+    border-radius: 3px;
+    transition: background 0.5s;
+    cursor: pointer;
+    text-decoration: none;
+    border: 0;
+    margin-top: 28px;
+}
+#login main button[type=submit]:hover{
+    background: rgb(253, 253, 253);
+    color:rgb(10, 10, 10);
+}
+#login #mensagem{
+    margin-top: 20px;
+    width: 100%;
+    background-color: #ffe6e6;
+    color: #5f0404;
+}

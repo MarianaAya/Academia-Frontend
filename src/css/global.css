@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+
+html, body{
+    height: 100%;
+}
+body{
+    background: url('fundo.jpg') no-repeat fixed;
+    background-size: cover;
+    -webkit-font-smoothing: antialiased;
+}
+body, input, button{
+    font-family: Arial, Arial, Helvetica, sans-serif; 
+}
+
+.estBtn{
+    width: 100%;
+    border: 0;
+    margin-top: 30px;
+    background:#646464;
+    border-radius: 5px;
+    padding: 15px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #fff;
+    cursor: pointer;
+    transition: background 0.5s;
+}
+
+.estBtn:hover{
+    background: #e3ece3;
+    color: #000000;
+}
+.estBtn:disabled,
+button[disabled]{
+  border: 1px solid #999999;
+  background-color: #cccccc;
+  color: #666666;
+}

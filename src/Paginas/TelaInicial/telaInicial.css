@@ -1,0 +1,157 @@
+header{
+    background-color: rgb(0, 0, 0);
+    width:100%;
+    height: 45px;
+    display: flex;
+    justify-content: space-between;
+}
+header #btnInicio{
+    width:130px;
+    font-size: 20px;
+    color: #ffffff;
+    font-weight: bold;
+    background-color: rgb(43, 43, 43);
+    border: none;
+    cursor: pointer;
+    transition: background 1s;
+}
+header #btnInicio:hover{
+    background-color: rgb(141, 143, 141);
+}
+header #pesquisa{
+    display: flex;
+    justify-content: center;
+    height: 100%;
+    padding: 10px;
+}
+header #pesquisa input{
+    font-size: 20px;
+    border: none;
+    border-radius: 5px 0px 0px 5px;
+    padding-left: 10px;
+    width: 340px;
+}
+header #pesquisa button{
+    border:none;
+    width: 45px;
+    border-radius: 0 5px 5px 0;
+}
+header button:hover{
+    cursor:pointer;
+}
+.btnUser{
+    height: 45px;
+    width: 50px;
+    border: none;
+    background-color: rgb(0, 0, 0);
+    transition: background 1s;
+}
+.btnUser:hover{
+    background-color: rgb(95, 95, 95);
+}
+
+#divBtn{
+    position: relative;
+}
+#menu{
+    width:200px;
+    height: 42px;
+    background-color: rgb(25, 109, 14);
+    position:absolute;
+    right: 0;
+}
+#menu ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+#menu ul li button{
+    border: none;
+    width: 100%;
+    height: 40px;
+    color: #ffffff;
+    font-size: 18px;
+    background-color: rgb(46, 46, 46);
+    transition: background 1s;
+}
+
+#menu ul li button:hover{
+    background-color: rgb(140, 143, 140);
+}
+
+/***********************************************************************************/
+#tela{
+    width:100%;
+    min-height: 100vh;
+    overflow: auto;
+    /*background-image: radial-gradient(circle, rgb(201, 243, 201), rgb(134, 202, 143), rgb(201, 243, 201));*/
+    background: url('fundo.jpg') no-repeat fixed;
+    background-size: cover;
+    opacity: 1;
+}
+#tela #conteudo{
+    padding:8%;
+    text-align: center;
+    width:100%;
+}
+
+#tela main{
+    display: flex;
+    justify-content: center;
+}
+
+#tela main ul{
+    grid-template-columns: repeat(1, 1fr); /*divide em dois*/
+    gap: 40px;
+    margin-top: 30px;
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    text-align: left;
+    color:#ffff;
+ }
+ #tela main ul li:hover{
+    background-color: #292828;
+    color: #ffff;
+ }
+ #tela main li.pac-Item{
+    background-color: rgba(2, 2, 2, 0.959);
+    box-shadow: 0 0 14px 0 rgba(0, 0, 0, 0.02);
+    border-radius: 5px;
+    width: 290px;
+    height: 300px;
+    overflow: auto;
+    transition: background 1s;
+    padding: 30px;
+    border: 2px solid rgb(175, 180, 182);
+ }
+.pac-nome{
+    width: 100%;
+    text-align: center;
+    font-size: 25px;
+    font-weight: bolder;
+    color: rgb(121, 121, 121);
+}
+.pac-info{
+    margin-top: 20px;
+ }
+.pac-buttons{
+    width: 100%;
+    margin-top:40px;
+    justify-content: center;
+    display: flex;
+ }
+ .pac-buttons button{
+    padding: 12px;
+    border: none;
+    border-radius: 4px;
+    transition: background 1s;
+    font-size: 12px;
+    font-weight: bold;
+    background-color: rgb(106, 110, 108);
+ }
+ .pac-buttons button:hover{
+    cursor: pointer;
+    background-color: rgb(209, 214, 210);
+ }
